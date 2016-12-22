@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_asset_action_icon"
+        android:layout_width="@dimen/asset_icon"
+        android:layout_height="@dimen/asset_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/tv_asset_action_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_asset_action_icon"
+        android:layout_alignTop="@id/iv_asset_action_icon"
+        android:layout_marginLeft="@dimen/left_padding"
+        android:text="Farm"
+        android:textColor="@color/resourceText"
+        android:textSize="@dimen/resource_text"/>
+
+    <LinearLayout
+        android:id="@+id/ll_asset_cost"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_asset_action_icon"
+        android:layout_below="@id/tv_asset_action_title"
+        android:layout_alignBottom="@id/iv_asset_action_icon">
+
+    </LinearLayout>
+
+</RelativeLayout>

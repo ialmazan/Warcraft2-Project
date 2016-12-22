@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/iv_asset_completion_icon"
+        android:layout_width="@dimen/asset_icon"
+        android:layout_height="@dimen/asset_icon" />
+
+    <ProgressBar
+        android:id="@+id/pb_asset_completion"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:padding="@dimen/asset_space"
+        android:paddingTop="0dp"
+        android:foregroundGravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_asset_completion_icon"
+        android:layout_alignBottom="@+id/iv_asset_completion_icon"/>
+
+    <TextView
+        android:id="@+id/tv_asset_completion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_asset_completion_icon"
+        android:layout_alignTop="@+id/iv_asset_completion_icon"
+        android:layout_above="@id/pb_asset_completion"
+        android:paddingLeft="@dimen/asset_space"
+        android:text="Training"
+        android:textSize="@dimen/resource_text"
+        android:textColor="@color/resourceText"
+        android:gravity="bottom"/>
+
+</RelativeLayout>

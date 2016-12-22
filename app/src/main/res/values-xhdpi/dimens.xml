@@ -1,0 +1,11 @@
+<resources>
+    <!-- Devices ~320 dpi e.g. Nexus 7 2013 -->
+    <dimen name="asset_icon">48dp</dimen>
+    <dimen name="asset_name">20dp</dimen>
+    <dimen name="asset_info">12dp</dimen>
+    <dimen name="asset_space">4dp</dimen>
+
+    <dimen name="resource_icon">16dp</dimen>
+    <dimen name="resource_text">12dp</dimen>
+    <dimen name="left_padding">8dp</dimen>
+</resources>

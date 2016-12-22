@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center"
+              android:id="@+id/activity_options"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/texture">
+
+    <Button
+        android:fontFamily="sans-serif-medium"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="HostMultiPlayer"
+        android:text="@string/host_multi_player_game"/>
+
+    <Button
+        android:fontFamily="sans-serif-medium"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="JoinMultiPlayer"
+        android:text="@string/join_multi_player_game"/>
+
+    <Button
+        android:fontFamily="sans-serif-medium"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="finishActivity"
+        android:text="@string/back"/>
+</LinearLayout>

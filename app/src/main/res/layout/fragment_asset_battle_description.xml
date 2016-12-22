@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_asset_damage"
+                android:background="@drawable/icon_damage"
+                android:layout_width="@dimen/resource_icon"
+                android:layout_height="@dimen/resource_icon" />
+
+            <TextView
+                android:id="@+id/tv_asset_damage"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:text="3 - 5"
+                android:textColor="@color/resourceText"
+                android:textSize="@dimen/resource_text"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_asset_armor"
+                android:background="@drawable/icon_armor"
+                android:layout_width="@dimen/resource_icon"
+                android:layout_height="@dimen/resource_icon" />
+
+            <TextView
+                android:id="@+id/tv_asset_armor"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:text="5"
+                android:textColor="@color/resourceText"
+                android:textSize="@dimen/resource_text"
+                />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_asset_sight"
+                android:background="@drawable/icon_sight"
+                android:layout_width="@dimen/resource_icon"
+                android:layout_height="@dimen/resource_icon" />
+
+            <TextView
+                android:id="@+id/tv_asset_sight"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:text="4"
+                android:textColor="@color/resourceText"
+                android:textSize="@dimen/resource_text"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_asset_speed"
+                android:background="@drawable/icon_speed"
+                android:layout_width="@dimen/resource_icon"
+                android:layout_height="@dimen/resource_icon" />
+
+            <TextView
+                android:id="@+id/tv_asset_speed"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:text="2"
+                android:textColor="@color/resourceText"
+                android:textSize="@dimen/resource_text"
+                />
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

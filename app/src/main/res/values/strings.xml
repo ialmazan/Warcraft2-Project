@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NittaCraft</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="single_player">Single Player Game</string>
+    <string name="multiplayer">Multi Player Game</string>
+    <string name="options">Options</string>
+    <string name="exit_game">Exit Game</string>
+    <string name="sound_options">Sound Options</string>
+    <string name="network_options">Network Options</string>
+    <string name="back">Back</string>
+    <string name="online">Online</string>
+    <string name="lan">LAN</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="select_map">Select Map</string>
+    <string name="host_multi_player_game">Host Multi Player Game</string>
+    <string name="join_multi_player_game">Join Multi Player Game</string>
+    <string name="play_game">Play Game</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_asset_icon"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/asset_icon"
+        android:layout_height="@dimen/asset_icon" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/asset_space"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_asset_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Peasant"
+            android:textColor="@color/resourceText"
+            android:textSize="@dimen/asset_name"/>
+
+        <!--TODO: Make HP a progress bar-->
+        <TextView
+            android:id="@+id/tv_asset_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HP: 32/32"
+            android:textColor="@color/resourceText"
+            android:textSize="@dimen/asset_info"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
